@@ -1,0 +1,61 @@
+﻿<Window x:Class="QuanlyBanhang.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:QuanlyBanhang"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="500" Width="800"
+        Loaded="Winload"
+        >
+    <Window.Resources>
+
+        <Style x:Key="DataGridStyle1" TargetType="{x:Type DataGrid}">
+            <Setter Property="ColumnHeaderStyle" Value="{DynamicResource ColumnHeaderStyle1}"/>
+        </Style>
+        <!-- DataGridColumnHeader style -->
+        <Style x:Key="ColumnHeaderStyle1" TargetType="{x:Type DataGridColumnHeader}">
+            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+            <Setter Property="FontWeight"  Value="Bold"/>
+        </Style>
+        <Style x:Key="Btn" TargetType ="{x:Type Button}">
+            <Setter Property="Width" Value="60"/>
+            <Setter Property ="Height" Value="30"/>
+            <Setter Property="Background" Value="Black"/>
+            <Setter Property="Foreground" Value="White"/>
+
+        </Style>
+    </Window.Resources>
+    <Grid Margin="0,0,-30,-16">
+        <Label FontSize="20" Content="Mã sản phẩm: " VerticalAlignment="Top" HorizontalAlignment="Left" Margin="60,20,0,0" />
+        <TextBox Name="txtMa"  VerticalAlignment="Top" HorizontalAlignment="Left" Width="200" Height="30" Margin="250,20,0,0"  Foreground="Blue"/>
+        <Label  FontSize="20" Content="Tên sản phẩm: " VerticalAlignment="Top" HorizontalAlignment="Left" Margin="60,70,0,0" />
+        <TextBox Name="txtTen" VerticalAlignment="Top" HorizontalAlignment="Left" Width="200" Height="30" Margin="250,70,0,0"  Foreground="Blue"/>
+        <Label FontSize="20" Content="Đơn giá: " VerticalAlignment="Top" HorizontalAlignment="Left" Margin="60,120,0,0" />
+        <TextBox Name="txtDon" VerticalAlignment="Top" HorizontalAlignment="Left" Width="200" Height="30" Margin="250,120,0,0"  Foreground="Blue"/>
+        <Label FontSize="20" Content="Số lượng bán: " VerticalAlignment="Top" HorizontalAlignment="Left" Margin="60,170,0,0" />
+        <TextBox Name="txtSo1" VerticalAlignment="Top" HorizontalAlignment="Left" Width="200" Height="30" Margin="250,170,0,0"  Foreground="Blue"/>
+        <Label FontSize="20" Content="Tiền bán: " VerticalAlignment="Top" HorizontalAlignment="Left" Margin="60,220,0,0" />
+        <TextBox Name="txtTien" VerticalAlignment="Top" HorizontalAlignment="Left" Width="200" Height="30" Margin="250,220,0,0"  Foreground="Blue"/>
+        <Label FontSize="20" Content="Nhóm hàng: " VerticalAlignment="Top" HorizontalAlignment="Left" Margin="60,270,0,0" />
+        <ComboBox Name="cmbox" VerticalAlignment="Top" HorizontalAlignment="Left" Width="200" Height="30" Margin="250,270,0,0" >
+
+
+        </ComboBox>
+        <DataGrid SelectedCellsChanged="choseCell" AutoGenerateColumns="False" CanUserAddRows="False" Name="list"   VerticalAlignment="Top" HorizontalAlignment="Left"  Style="{DynamicResource DataGridStyle1}" Height="100" Width="600"  Margin="108,312,0,0">
+
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{Binding Masp}"  Header="Mã Sản phẩm" Width="100" />
+
+
+                <DataGridTextColumn Binding="{Binding Tensanpham}" Header="Tên Sản phẩm" Width="100" />
+                <DataGridTextColumn Binding="{Binding Dongia}"  Header="Đơn giá " Width="100" />
+                <DataGridTextColumn  Binding="{Binding Soluongban}" Header="Số lượng bán" Width="100" />
+                <DataGridTextColumn Binding="{Binding Manhomhang}"  Header="Nhóm hàng" Width="100" />
+                <DataGridTextColumn Binding="{Binding Tienban}"  Header="Tiền bán" Width="100" />
+            </DataGrid.Columns>
+        </DataGrid>
+        <Button Click="btn_add" Content="Thêm" Style="{DynamicResource Btn}" Margin="270,431,500,39"/>
+        <Button Click="btn_search" Content="Tìm" Style="{DynamicResource Btn}" Margin="484,431,286,39" />
+    </Grid>
+</Window>

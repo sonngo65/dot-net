@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="XMLFile2"
+    targetNamespace="http://tempuri.org/XMLFile2.xsd"
+    elementFormDefault="qualified"
+    xmlns="http://tempuri.org/XMLFile2.xsd"
+    xmlns:mstns="http://tempuri.org/XMLFile2.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+	<xs:element name="congty">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="donvi">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="tendv" type="xs:string"/>
+							<xs:element name="dienthoai" type="xs:string"/>
+						</xs:sequence>
+						<xs:attribute name="madv">
+							<xs:simpleType>
+								<xs:restriction base="xs:string">
+									
+								</xs:restriction>
+							</xs:simpleType>
+						</xs:attribute>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="nhanvien">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="manv" type="xs:string"/>
+							<xs:element name="oten" type="xs:string"/>
+							<xs:element name="ngaysin" type="xs:string"/>
+							
+						</xs:sequence>
+					</xs:complexType>
+					
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

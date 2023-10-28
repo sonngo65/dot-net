@@ -1,0 +1,8 @@
+F:\dotNet\NgoTatSon_Bai6\NgoTatSon_Bai6\bin\Debug\NgoTatSon_Bai6.exe.config
+F:\dotNet\NgoTatSon_Bai6\NgoTatSon_Bai6\bin\Debug\NgoTatSon_Bai6.exe
+F:\dotNet\NgoTatSon_Bai6\NgoTatSon_Bai6\bin\Debug\NgoTatSon_Bai6.pdb
+F:\dotNet\NgoTatSon_Bai6\NgoTatSon_Bai6\obj\Debug\NgoTatSon_Bai6.csproj.AssemblyReference.cache
+F:\dotNet\NgoTatSon_Bai6\NgoTatSon_Bai6\obj\Debug\NgoTatSon_Bai6.csproj.SuggestedBindingRedirects.cache
+F:\dotNet\NgoTatSon_Bai6\NgoTatSon_Bai6\obj\Debug\NgoTatSon_Bai6.csproj.CoreCompileInputs.cache
+F:\dotNet\NgoTatSon_Bai6\NgoTatSon_Bai6\obj\Debug\NgoTatSon_Bai6.exe
+F:\dotNet\NgoTatSon_Bai6\NgoTatSon_Bai6\obj\Debug\NgoTatSon_Bai6.pdb

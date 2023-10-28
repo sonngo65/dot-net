@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="XMLSchema1"
+    targetNamespace="http://tempuri.org/XMLSchema1.xsd"
+    elementFormDefault="qualified"
+    xmlns="http://tempuri.org/XMLSchema1.xsd"
+    xmlns:mstns="http://tempuri.org/XMLSchema1.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+	
+    <xs:element name="congty">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="donvi" maxOccurs="10">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="tendv" type="xs:string"/>
+							<xs:element name="dienthoai">
+								<xs:simpleType>
+									<xs:restriction base="xs:string">
+										<xs:pattern value="\d{10}"/>
+									</xs:restriction>
+								</xs:simpleType>
+							</xs:element>
+							<xs:element name="nhanvien">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="manv">
+											<xs:simpleType>
+												<xs:restriction base="xs:ID">
+													<xs:maxLength value="4"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="hoten" type="xs:string"/>
+										<xs:element name="ngaysinh" type="xs:date"/>
+										<xs:element name="gioitinh">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:enumeration value="nam"/>
+													<xs:enumeration value="nữ"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="hsluong">
+											<xs:simpleType>
+												<xs:restriction base="xs:double">
+													<xs:minExclusive value="2.34"/>
+													<xs:maxExclusive value="8.8"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+						<xs:attribute name="madv">
+							<xs:simpleType>
+								<xs:restriction base="xs:ID">
+									<xs:maxLength value="4"/>
+								</xs:restriction>
+							</xs:simpleType>
+						</xs:attribute>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+			
+	</xs:element>
+</xs:schema>

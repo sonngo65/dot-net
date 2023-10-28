@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ds>
+  <nhanvien manv="nv01">
+    <hoten>Ngô Tất Sơn</hoten>
+    <gioitinh>Nam</gioitinh>
+    <trinhdo>Đại học</trinhdo>
+    <diachi>Lào Cai</diachi>
+  </nhanvien>
+  <nhanvien manv="wq">
+    <hoten>qwe</hoten>
+    <gioitinh>Nữ</gioitinh>
+    <trinhdo>Đại học</trinhdo>
+    <diachi>qwe</diachi>
+  </nhanvien>
+  <nhanvien manv="wq">
+    <hoten>qwe</hoten>
+    <gioitinh>Nam</gioitinh>
+    <trinhdo>Tiểu học</trinhdo>
+    <diachi>qwe</diachi>
+  </nhanvien>
+  <nhanvien manv="wq2">
+    <hoten>qwe2</hoten>
+    <gioitinh>Nam</gioitinh>
+    <trinhdo>Đại học</trinhdo>
+    <diachi>qwe</diachi>
+  </nhanvien>
+</ds>

@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="bai2"
+    targetNamespace="http://tempuri.org/bai2.xsd"
+    elementFormDefault="qualified"
+    xmlns="http://tempuri.org/bai2.xsd"
+    xmlns:mstns="http://tempuri.org/bai2.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+	<xs:element name="DS">
+		<xs:complexType >
+			<xs:sequence>
+				<xs:element name="hoadon" maxOccurs="4">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="mahd">
+								<xs:simpleType>
+									<xs:restriction base="xs:ID">
+										<xs:maxLength value="6"/>
+									</xs:restriction>
+								</xs:simpleType>
+							</xs:element>
+							<xs:element name="ngayban" type="xs:date"/>
+							<xs:element name="loaihang" maxOccurs="10">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="hang" maxOccurs="unbounded">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="tenhang" type="xs:string"/>
+													<xs:element name="soluong" type="xs:integer"/>
+													<xs:element name="donvitinh">
+														<xs:simpleType>
+															<xs:restriction base="xs:string">
+																<xs:enumeration value="gói"/>
+																<xs:enumeration value="hộp"/>
+																<xs:enumeration value ="chiếc"/>
+															</xs:restriction>
+														</xs:simpleType>
+													</xs:element>
+													<xs:element name="dongia">
+														<xs:simpleType>
+															<xs:restriction base="xs:double">
+																<xs:minInclusive value="0"/>
+															</xs:restriction>
+														</xs:simpleType>
+													</xs:element>
+												</xs:sequence>
+												<xs:attribute name="mahang">
+													<xs:simpleType>
+														<xs:restriction base="xs:ID">
+															<xs:maxLength value="6"/>
+														</xs:restriction>
+													</xs:simpleType>
+												</xs:attribute>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+									<xs:attribute name="maloai">
+										<xs:simpleType>
+											<xs:restriction base="xs:ID">
+												<xs:maxLength value="6"/>
+											</xs:restriction>
+										</xs:simpleType>
+									</xs:attribute>
+									<xs:attribute name="tenloai" type="xs:string"/>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

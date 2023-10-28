@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="bai1.xslt"?>
+<congty>
+	<donvi madv="dv01">
+		<tendv>adfser</tendv>
+		<dienthoai>2323243242</dienthoai>
+		<nhanvien>
+			<manv>nv01</manv>
+			<hoten>ngo son</hoten>
+			<ngaysinh>2002-07-01</ngaysinh>
+			<gioitinh>nam</gioitinh>
+			<hsluong>2.3</hsluong>
+		</nhanvien>
+		<nhanvien>
+			<manv>nv02</manv>
+			<hoten>ngoe qwe  son</hoten>
+			<ngaysinh>2003-07-01</ngaysinh>
+			<gioitinh>nam</gioitinh>
+			<hsluong>5</hsluong>
+		</nhanvien>
+	</donvi>
+</congty>

@@ -1,0 +1,36 @@
+﻿<Window x:Class="bai9.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:bai9"
+        mc:Ignorable="d"
+        Title="NgoTatSon" Height="450" Width="800">
+
+    <Grid>
+        <Label Content="Danh sách" HorizontalAlignment="Left" Margin="101,73,0,0" VerticalAlignment="Top"/>
+        <ListBox SelectedIndex="1" Name="listbox1"  HorizontalAlignment="Left" VerticalAlignment="Top" Margin="101,104,0,0" Width="227" Height="250" SelectionChanged="addItem">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <TextBlock  Text="{Binding name}"></TextBlock>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+
+
+        <ListBox ItemsSource="{Binding}"  IsEnabled="True" Name="listbox2" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="437,104,0,0" Width="227" Height="250">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <TextBlock Text="{Binding name}"></TextBlock>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+        <Label Content="Sách đã chọn" HorizontalAlignment="Left" Margin="437,73,0,0" VerticalAlignment="Top"/>
+        <Button Name="btn1" Content=">" FontSize="17" Width="80" HorizontalAlignment="Left" Margin="341,145,0,0" VerticalAlignment="Top" Click="Button_Click1"/>
+        <Button Name="btn2" Content=">>" FontSize="17" Width="80" HorizontalAlignment="Left" Margin="341,195,0,0" VerticalAlignment="Top" Click="Button_Click2"/>
+        <Button Name="btn3" Content=">" FontSize="17" Width="80" HorizontalAlignment="Left" Margin="341,245,0,0" VerticalAlignment="Top" Click="Button_Click3"/>
+        <Button Name ="btn4"  Content=">>" FontSize="17" Width="80" HorizontalAlignment="Left" Margin="341,295,0,0" VerticalAlignment="Top" Click="Button_Click4"/>
+        <ListView Name="listView" Width="600" VerticalAlignment="Top"></ListView>
+    </Grid>
+
+</Window>

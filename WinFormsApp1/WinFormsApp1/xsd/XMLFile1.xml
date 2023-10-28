@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<congty xmlns="http://tempuri.org/XMLSchema1.xsd">
+	<donvi madv="weq1">
+		<tendv>weqeqwe</tendv>
+		<dienthoai>2321321333</dienthoai>
+		<nhanvien>
+			<manv>wqw3</manv>
+			<hoten>ngo son</hoten>
+			<ngaysinh>2002-07-02</ngaysinh>
+			<gioitinh>nam</gioitinh>
+			<hsluong>2.35</hsluong>
+		</nhanvien>
+	</donvi>
+	<donvi madv="weq2">
+		<tendv>weqeqwe</tendv>
+		<dienthoai>2321321333</dienthoai>
+		<nhanvien>
+			<manv>wqw4</manv>
+			<hoten>ngo son</hoten>
+			<ngaysinh>2002-07-02</ngaysinh>
+			<gioitinh>nam</gioitinh>
+			<hsluong>2.35</hsluong>
+		</nhanvien>
+	</donvi>
+</congty>

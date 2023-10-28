@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<?xml-sylesheet type="text/css" href="bai1.xslt" ?>
+<congty>
+	<donvi madv="a01">
+		<tendv>Phòng tổ chức </tendv>
+		<dienthoai>0324234234</dienthoai>
+		<nhanvien>
+			<manv>tc01</manv>
+			<hoten>lê thu trà</hoten>
+			<ngaysinh>2023-12-23</ngaysinh>
+			<gioitinh>nam</gioitinh>
+			<hsluong>3.23</hsluong>
+		</nhanvien>
+	</donvi>
+</congty>

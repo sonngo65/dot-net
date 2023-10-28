@@ -1,0 +1,8 @@
+F:\dotNet\twat\twat\bin\Debug\twat.exe.config
+F:\dotNet\twat\twat\bin\Debug\twat.exe
+F:\dotNet\twat\twat\bin\Debug\twat.pdb
+F:\dotNet\twat\twat\obj\Debug\twat.csproj.AssemblyReference.cache
+F:\dotNet\twat\twat\obj\Debug\twat.csproj.SuggestedBindingRedirects.cache
+F:\dotNet\twat\twat\obj\Debug\twat.csproj.CoreCompileInputs.cache
+F:\dotNet\twat\twat\obj\Debug\twat.exe
+F:\dotNet\twat\twat\obj\Debug\twat.pdb

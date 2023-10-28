@@ -1,0 +1,11 @@
+F:\dotNet\thicuoiky\windowform\bin\Debug\windowform.exe.config
+F:\dotNet\thicuoiky\windowform\bin\Debug\windowform.exe
+F:\dotNet\thicuoiky\windowform\bin\Debug\windowform.pdb
+F:\dotNet\thicuoiky\windowform\obj\Debug\windowform.csproj.AssemblyReference.cache
+F:\dotNet\thicuoiky\windowform\obj\Debug\windowform.csproj.SuggestedBindingRedirects.cache
+F:\dotNet\thicuoiky\windowform\obj\Debug\windowform.Form1.resources
+F:\dotNet\thicuoiky\windowform\obj\Debug\windowform.Properties.Resources.resources
+F:\dotNet\thicuoiky\windowform\obj\Debug\windowform.csproj.GenerateResource.cache
+F:\dotNet\thicuoiky\windowform\obj\Debug\windowform.csproj.CoreCompileInputs.cache
+F:\dotNet\thicuoiky\windowform\obj\Debug\windowform.exe
+F:\dotNet\thicuoiky\windowform\obj\Debug\windowform.pdb
